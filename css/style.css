@@ -1,0 +1,151 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    
+  }
+
+/* title */
+.container-fluid {
+    padding:  34px 34px;  }
+
+  /* Navigation Bar*/
+
+.navbar {
+    /* style the navbar's padding bottom 4rem */
+    padding-bottom: 4rem;
+    z-index: 1;
+  }
+
+  .navbar-toggler> i{
+    font-size: 80%;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  
+  }
+  
+  .nav-item {
+    /* style the nav-item's padding 0 18px */
+    padding :0 18px;
+    
+  }
+  
+  .nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+
+.profilePP {
+    position: relative;
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    overflow: hidden;
+    border-radius: 50%; /* Make it a circle */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.socialList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    color:black;
+    align-content: center;
+    text-decoration: none;
+    cursor:pointer;
+    
+   
+  }
+.line{
+    transform: rotate(270deg);
+    white-space: nowrap;
+    padding:10%;
+
+  }
+.socialList > a:hover{
+    background-color: #E9A8F2;
+    color: black;
+}
+  .customList>li{
+    padding: 1%;
+  }
+
+.portfolioText{
+
+    font-size: 70px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: bold;
+    margin-top: 200px;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    z-index: 3;
+   
+}
+/* AboutMe */
+#AboutMe{
+
+    padding-left:20px;
+}
+
+#AboutMe > div> h2{
+    align-items: center;
+    text-align: center;
+
+}
+/* experiance */
+/* Projects*/
+#MyProjects> .container-fluid >h2{
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+
+}
+#carouselExampleAutoplaying
+{   width: 400px;
+    height: 200px;
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px; 
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+/*skills*/
+
+
+.skill-icons i {
+    max-width:100px;
+    max-height: 100px;
+    font-size: 2em; 
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+  
+}
+
+
+.skill-icons:hover i,.skill-icons:hover img {
+    transform: translateX(30px); 
+    cursor:pointer;
+
+   
+}
+/* footer */
+#footer{
+    align-items: center;
+    text-align: center;
+}
+
+#Education{
+
+    align-items: center;
+
+    
+    
+}
+  
